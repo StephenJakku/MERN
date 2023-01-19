@@ -36,6 +36,7 @@ export const getUserFriends = async (req, res) => {
 export const addRemoveFriend = async (req, res) => {
   try {
     const { id, friendId } = req.params;
+    // console.log("C-users=>addRemoveFriend:req.id,friendId", id, friendId);
     const user = await User.findById(id);
     const friend = await User.findById(friendId);
 
