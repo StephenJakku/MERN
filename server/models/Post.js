@@ -7,6 +7,7 @@ const PostSchema = new mongoose.Schema(
     lastName: { type: String, required: true },
     location: String,
     picturePath: String,
+    userPicturePath: String,
     description: String,
     likes: { type: Map, of: Boolean },
     comments: { type: Array, default: [] },
