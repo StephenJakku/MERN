@@ -13,7 +13,7 @@ const LoginPage = () => {
         p="1rem 6%"
         textAlign="center">
         <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Sociopedia
+          Social
         </Typography>
       </Box>
       <Box
@@ -23,7 +23,7 @@ const LoginPage = () => {
         backgroundRadius="1.5rem"
         backgroundColor={theme.palette.background.alt}>
         <Typography fontWeight="500" varient="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Sociopedia, the social media for Sociopaths!
+          Welcome to Social, the social media for Sociopaths!
         </Typography>
         <Form />
       </Box>

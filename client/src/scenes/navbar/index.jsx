@@ -53,7 +53,7 @@ const Navbar = () => {
           color="primary"
           onClick={() => navigate("/home")}
           sx={{ "&:hover": { color: primaryLight, cursor: "pointer" } }}>
-          Sociopedia
+          Social
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
